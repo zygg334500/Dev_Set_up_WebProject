@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="toolsmanage.ToosSettiing">
+        <methods>
+          <include name="importBanJi" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- toolsmanage.ToosSettiing -->
+      <class name="peopleManage.ImprotFourKindsofPerson">
+        <methods>
+          <include name="importpersons" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- peopleManage.ImprotFourKindsofPerson -->
+      <class name="Set_up_project.ClassManage">
+        <methods>
+          <include name="importBanJi" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Set_up_project.ClassManage -->
+      <class name="Set_up_project.ImportXuekezidian">
+        <methods>
+          <include name="importxueke" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Set_up_project.ImportXuekezidian -->
+      <class name="RegistrationCardManager.CreatCard">
+        <methods>
+          <include name="creatCards" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RegistrationCardManager.CreatCard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

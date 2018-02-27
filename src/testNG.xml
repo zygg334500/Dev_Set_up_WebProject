@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="CreatProject.StartAProject"/>
+      <class name="ProjectInfoManage.BasicInfoSetting"/>
+      <class name="ProjectInfoManage.OtherSetting"/>
+      <class name="Set_up_project.ImportCenjiZidian"/>
+      <class name="Set_up_project.ImportXuekezidian"/>
+      <class name="Set_up_project.ClassManage"/>
+      <class name="toolsmanage.SelectTools"/>
+      <class name="toolsmanage.AddAnnouncement"/>
+      <class name="toolsmanage.ToosSettiing"/>
+      <class name="rolemanage.RequiredFildSeting"/>
+      <class name="rolemanage.PermissionSetting"/>
+      <class name="RegistrationCardManager.CreatCard"/>
+      <class name="peopleManage.ImprotFourKindsofPerson"/>
+      <class name="Set_up_project.SaveTools"/>
+      <class name="Set_up_project.LoadStaticPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

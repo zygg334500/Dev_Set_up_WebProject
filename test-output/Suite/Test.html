@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 30 09:54:01 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>384 seconds (384405 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ProjectInfoManage.BasicInfoSetting.basicInfoSeting()'><b>basicInfoSeting</b><br>Test class: ProjectInfoManage.BasicInfoSetting<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>14</td>
+<td>ProjectInfoManage.BasicInfoSetting@18374c9</td></tr>
+<tr>
+<td title='RegistrationCardManager.CreatCard.creatCards()'><b>creatCards</b><br>Test class: RegistrationCardManager.CreatCard<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>33</td>
+<td>RegistrationCardManager.CreatCard@1b9c3f</td></tr>
+<tr>
+<td title='Set_up_project.ClassManage.importBanJi()'><b>importBanJi</b><br>Test class: Set_up_project.ClassManage<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadbanji.exe</td>
+<td></td>
+<td>23</td>
+<td>Set_up_project.ClassManage@1f06804</td></tr>
+<tr>
+<td title='toolsmanage.AddAnnouncement.importBanJi()'><b>importBanJi</b><br>Test class: toolsmanage.AddAnnouncement<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadTestPlan.exe</td>
+<td></td>
+<td>24</td>
+<td>toolsmanage.AddAnnouncement@26aee</td></tr>
+<tr>
+<td title='toolsmanage.ToosSettiing.importBanJi()'><b>importBanJi</b><br>Test class: toolsmanage.ToosSettiing<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadTestPlan.exe</td>
+<td></td>
+<td>24</td>
+<td>toolsmanage.ToosSettiing@ba3671</td></tr>
+<tr>
+<td title='rolemanage.RequiredFildSeting.importBanJi()'><b>importBanJi</b><br>Test class: rolemanage.RequiredFildSeting<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>34</td>
+<td>rolemanage.RequiredFildSeting@14c55ea</td></tr>
+<tr>
+<td title='Set_up_project.ImportCenjiZidian.importcenji()'><b>importcenji</b><br>Test class: Set_up_project.ImportCenjiZidian<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadCenji.exe</td>
+<td></td>
+<td>24</td>
+<td>Set_up_project.ImportCenjiZidian@54446d</td></tr>
+<tr>
+<td title='peopleManage.ImprotFourKindsofPerson.importpersons()'><b>importpersons</b><br>Test class: peopleManage.ImprotFourKindsofPerson<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadStudent.exe, C:/Program Files (x86)/Mozilla Firefox/uploadTeacher.exe, C:/Program Files (x86)/Mozilla Firefox/uploadExport.exe, C:/Program Files (x86)/Mozilla Firefox/uploadadminuser.exe</td>
+<td></td>
+<td>49</td>
+<td>peopleManage.ImprotFourKindsofPerson@af28ad</td></tr>
+<tr>
+<td title='Set_up_project.ImportXuekezidian.importxueke()'><b>importxueke</b><br>Test class: Set_up_project.ImportXuekezidian<br>Parameters: luofeng2, phoenix456, C:/Program Files (x86)/Mozilla Firefox/uploadXueke.exe</td>
+<td></td>
+<td>25</td>
+<td>Set_up_project.ImportXuekezidian@585fa9</td></tr>
+<tr>
+<td title='Set_up_project.LoadStaticPage.loadStaticPage()'><b>loadStaticPage</b><br>Test class: Set_up_project.LoadStaticPage<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>23</td>
+<td>Set_up_project.LoadStaticPage@a8f58d</td></tr>
+<tr>
+<td title='ProjectInfoManage.OtherSetting.otherSeting()'><b>otherSeting</b><br>Test class: ProjectInfoManage.OtherSetting<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>14</td>
+<td>ProjectInfoManage.OtherSetting@168442e</td></tr>
+<tr>
+<td title='toolsmanage.SelectTools.selectTools()'><b>selectTools</b><br>Test class: toolsmanage.SelectTools<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>17</td>
+<td>toolsmanage.SelectTools@3cf525</td></tr>
+<tr>
+<td title='rolemanage.PermissionSetting.setPermission()'><b>setPermission</b><br>Test class: rolemanage.PermissionSetting<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>35</td>
+<td>rolemanage.PermissionSetting@9c7650</td></tr>
+<tr>
+<td title='CreatProject.StartAProject.startProject()'><b>startProject</b><br>Test class: CreatProject.StartAProject<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>15</td>
+<td>CreatProject.StartAProject@b1959</td></tr>
+<tr>
+<td title='Set_up_project.SaveTools.theEndSave()'><b>theEndSave</b><br>Test class: Set_up_project.SaveTools<br>Parameters: luofeng2, phoenix456</td>
+<td></td>
+<td>22</td>
+<td>Set_up_project.SaveTools@1977d63</td></tr>
+</table><p>
+</body>
+</html>
